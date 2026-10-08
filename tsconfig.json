@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "ESNext", "lib": ["ES2022", "DOM", "DOM.Iterable", "WebWorker"],
+    "moduleResolution": "Bundler", "skipLibCheck": true, "strict": true, "noEmit": true,
+    "noUnusedLocals": true, "noUnusedParameters": true, "isolatedModules": true
+  },
+  "include": ["source/src"]
+}

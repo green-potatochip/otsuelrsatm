@@ -1,0 +1,93 @@
+{
+  "artifact": "OUR-SLAM anonymous supplementary project page",
+  "sourceAndDataAudit": {
+    "passed": true,
+    "filesAudited": 91,
+    "compressedBundlesInspected": 26,
+    "dataFilesPreserved": 41,
+    "identifyingStringFindings": 0,
+    "brokenDataReferences": 0,
+    "pdfIncluded": false,
+    "repositoryHistoryIncluded": false,
+    "maximumFileBytes": 6995446,
+    "publicDependencySymbolsRetained": true
+  },
+  "installation": {
+    "command": "npm ci",
+    "passed": true
+  },
+  "build": {
+    "command": "npm run build",
+    "passed": true
+  },
+  "browserVerification": {
+    "command": "npm run check",
+    "passed": true,
+    "sequencesChecked": 13,
+    "checks": [
+      "anonymous branding and no lab links",
+      "active-section navigation",
+      "interactive method pipeline",
+      "all 13 sequence comparisons visible",
+      "stereo and monocular paper Table III",
+      "VIO Loop and in-house VIO values",
+      "static method diagrams without sliders",
+      "trajectory, anchor, and selected/rejected ranges",
+      "directional reweighting comparison",
+      "retention, ATE, and update-time visual cards",
+      "Abstract before Overview",
+      "viewer last and admission stats in results",
+      "metric chart data and replay",
+      "mobile contents menu and Escape",
+      "nested static review path",
+      "standalone path",
+      "13 real sequences",
+      "sidebar-free viewer",
+      "measurement-time body-to-antenna connectors",
+      "camera origin hides sensor connectors",
+      "5-second and full range histories",
+      "z-colored landmarks and height legend",
+      "grid at z=0",
+      "compact acquisition-time card",
+      "anchor registration",
+      "accepted/rejected event inspection",
+      "layer controls and landmarks",
+      "camera views",
+      "range history and origin",
+      "plots and seeking",
+      "playback and end restart",
+      "rapid-switch stale load protection",
+      "results replay",
+      "mobile layout and controls",
+      "load error and recovery",
+      "no unexpected browser errors"
+    ]
+  },
+  "sandboxVerification": {
+    "passed": true,
+    "sequencesChecked": 13,
+    "policy": "sandbox allow-scripts allow-popups allow-forms allow-modals",
+    "corsHeadersRequired": false,
+    "originalReplayEntriesPreserved": 39,
+    "checks": [
+      "stylesheet applied",
+      "classic scripts and local replay transport",
+      "all 13 sequences",
+      "desktop and mobile controls",
+      "playback and seeking",
+      "bundle loading failure and retry",
+      "no unexpected browser errors"
+    ]
+  },
+  "localPreviewVerification": {
+    "passed": true,
+    "sequencesChecked": 13,
+    "diagram": "Directional projection and capped factor weight",
+    "rangeOrigin": "camera",
+    "rejectedCandidatesVisible": true,
+    "rangeLineWidth": 1.2,
+    "rangeOpacity": 0.55,
+    "gridColor": "#888888",
+    "desktopAndMobileChecked": true
+  }
+}

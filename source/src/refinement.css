@@ -1,0 +1,72 @@
+/* Static method explanations and visual range-admission comparisons. */
+@media(max-width:760px){.range-geometry svg text{font-size:17px}.range-geometry svg .sample-label{font-size:16px}.gain-chart svg text{font-size:14px}.gain-chart svg .svg-small{font-size:12px}.direction-case svg text{font-size:15px}.direction-case svg .svg-small{font-size:13px}}
+.abstract-section{max-width:950px;padding-bottom:35px}.abstract-section h2{font-size:25px}.abstract-section p{font-size:14px}.overview{padding-top:35px}
+.timing-context{font-size:11px;color:#83718d;margin:0 0 18px}.static-information{display:grid;grid-template-columns:1fr;gap:25px}.admission-flow{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:5px 0 18px;font-size:11px;color:#715880;padding:13px 16px;border-radius:6px;background:#f0ebf6}.admission-flow i{font-style:normal;color:#a999b7}.gate-diagram-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:25px;align-items:center}.gate-diagram-grid .sample-label{font-size:11px;font-weight:600}.gain-chart{border-left:1px solid #e5deec;padding-left:20px}.range-legend{justify-content:center;margin:13px 0 20px;gap:18px}.range-legend span{font-size:10px}.range-legend .dashed-key{width:15px;height:0;border-top:2px dashed #b1a4c6;background:none;border-radius:0}.static-information .diagram-equation{min-height:0;text-align:center;font-size:16px}.reweight-intro{font-size:13px;color:#80718b;max-width:900px;line-height:1.85}.reweight-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0 26px}.reweight-flow>div{padding:17px 18px;background:#f1edf7;border-radius:7px;border-top:2px solid #aa94bb}.reweight-flow>div:last-child{background:#eaf3ee;border-color:#73a28c}.reweight-flow span{display:block;color:#947fa3;font-size:9px;letter-spacing:.08em;margin-bottom:9px}.reweight-flow b{display:block;font-weight:600;color:#4f365f;font-size:12px}.reweight-flow small{display:block;font-size:10px;color:#887693;line-height:1.8;margin-top:9px}.direction-cases{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:20px}.direction-case{margin:0;background:#fff;border:1px solid #e5ddeb;border-radius:8px;padding:19px}.direction-case h4{font-size:14px;color:#5b4768;margin:0 0 8px;font-weight:600}.direction-case svg{max-width:430px;margin:auto}.direction-case figcaption{margin-top:3px;font-size:11px;line-height:1.75}.direction-explanation .figure-note{margin-top:15px;font-size:11px}.direction-explanation>.figure-step{margin-bottom:13px}
+.admission-dashboard{max-width:1100px;margin:55px auto 0;border-top:1px solid #ddd5e7;padding-top:40px}.admission-dashboard-heading{max-width:850px;margin-bottom:26px}.admission-dashboard-heading .eyebrow{font-size:10px}.admission-dashboard-heading h3{font-size:27px;line-height:1.35;color:var(--navy);letter-spacing:-.035em;margin-bottom:15px}.admission-dashboard-heading p{font-size:13px;color:#84758e;line-height:1.85}.admission-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.admission-card{--tone:#9685ae;background:white;border:1px solid #e4ddeb;border-radius:10px;padding:23px 24px 22px;min-width:0}.admission-card.time{--tone:#bb973c}.admission-card.information{--tone:#398566;background:#fbfdfc;border-color:#a5c8b7}.admission-card-heading{display:flex;align-items:baseline;justify-content:space-between;gap:9px;margin-bottom:25px}.admission-card-heading h4{margin:0;font-size:17px;letter-spacing:-.025em;font-weight:650;color:#4d365e}.admission-card-heading>span{font-size:9px;color:#94829e}.retention-ring{height:147px;width:147px;margin:auto;border-radius:50%;background:conic-gradient(var(--tone) var(--retention),#ebe6f1 0);display:flex;align-items:center;justify-content:center;transform:rotate(0deg)}.retention-ring>div{width:119px;height:119px;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column}.retention-ring strong{font-size:31px;color:#493353;letter-spacing:-.055em;font-weight:650;line-height:1.2;font-variant-numeric:tabular-nums}.retention-ring strong small{font-size:15px;letter-spacing:0;margin-left:2px}.retention-ring>div>span{font-size:9px;color:#a18daa;margin-top:6px}.retention-std{font-size:9px;text-align:center;color:#a18daa;margin:12px 0 24px}.ablation-label{display:block;font-size:10px;color:#8b7698;margin-bottom:12px}.ablation-ate{border-top:1px solid #ebe4f0;padding-top:19px}.ablation-metric{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:11px;color:#89758f}.ablation-metric b{color:#5e426c;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}.ablation-metric b small{font-size:10px;font-weight:400;color:#a08bac}.ablation-track{height:7px;background:#f0ebf5;border-radius:2px;overflow:hidden}.ablation-track>i{display:block;height:100%;background:var(--tone);border-radius:2px}.ate-track{margin:8px 0 16px}.ablation-runtime{border-top:1px solid #ebe4f0;padding-top:18px;margin-top:22px}.ablation-runtime .ablation-label{margin-bottom:9px}.ablation-runtime>strong{font-size:23px;color:#523c5d;letter-spacing:-.025em;font-weight:600;font-variant-numeric:tabular-nums}.ablation-runtime>strong>small{font-size:11px;color:#9f8aa9;font-weight:400;letter-spacing:0}.runtime-track{margin:13px 0 10px}.runtime-comparison{font-size:9px;color:#a18daa;line-height:1.7;display:block}.runtime-comparison b{font-weight:600;color:var(--tone)}
+@media(max-width:1000px){.admission-card{padding:21px 18px}.admission-card-heading{display:block}.admission-card-heading>span{display:block;margin-top:8px}.reweight-flow{gap:9px}.reweight-flow>div{padding:15px}.gate-diagram-grid{gap:15px}.gain-chart{padding-left:12px}}
+@media(max-width:760px){.abstract-section{padding-bottom:23px}.abstract-section h2{font-size:23px}.abstract-section p{font-size:13px}.overview{padding-top:26px}.admission-flow{font-size:10px;flex-direction:column;gap:8px;text-align:center;padding:13px}.admission-flow i{transform:rotate(90deg)}.gate-diagram-grid{grid-template-columns:1fr;gap:17px}.gain-chart{border-left:0;border-top:1px solid #e5deec;padding:17px 0 0}.range-geometry svg{max-width:500px}.range-legend{justify-content:flex-start;gap:12px}.range-legend span{font-size:9px}.static-information .diagram-equation{font-size:13px;text-align:left;line-height:2}.reweight-intro{font-size:12px}.reweight-flow{grid-template-columns:1fr;gap:10px;margin-block:17px}.reweight-flow>div{padding:14px 17px}.reweight-flow span{margin-bottom:7px}.reweight-flow small{margin-top:7px;font-size:10px}.direction-cases{grid-template-columns:1fr;gap:15px}.direction-case{padding:17px}.direction-case h4{font-size:13px}.direction-explanation .figure-note{font-size:10px}.admission-dashboard{margin-top:40px;padding-top:30px}.admission-dashboard-heading h3{font-size:25px}.admission-cards{grid-template-columns:1fr;gap:17px}.admission-card{padding:22px 24px}.admission-card-heading{display:flex;margin-bottom:22px}.admission-card-heading>span{margin:0}.retention-ring{width:155px;height:155px}.retention-ring>div{width:125px;height:125px}.ablation-label{font-size:11px}.ablation-metric{font-size:12px}.ablation-metric b{font-size:14px}.ablation-metric b small{font-size:11px}.runtime-comparison{font-size:10px}.ablation-runtime>strong{font-size:26px}}
+
+/* Directional projection and factor-weight illustration. */
+.reweight-illustration{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:start;margin:26px 0 5px}
+.reweight-illustration figure{margin:0;min-width:0}
+.reweight-illustration h4{font-size:14px;font-weight:600;color:#5b4768;margin:0 0 9px}
+.reweight-illustration svg{width:100%;display:block;overflow:visible}
+.reweight-illustration svg text{font-size:13px;fill:#82728b}
+.reweight-illustration svg .rw-q{font:600 28px Georgia,serif;fill:#38a9d1}
+.reweight-illustration svg .rw-label{font-size:12px;fill:#3898b9}
+.reweight-illustration svg .rw-aligned-label{font-size:15px;fill:#af8420}
+.reweight-illustration svg .rw-weight-label{font-size:18px;fill:#75617f}
+.reweight-illustration svg .rw-weight-value{font:19px Georgia,serif;fill:#75617f}
+.reweight-illustration svg .rw-gain-label{font-size:14px;fill:#af8420}
+.reweight-illustration svg .rw-cap-label{font:18px Georgia,serif;fill:#af8420}
+.reweight-legend{justify-content:center;margin:12px 0 20px;gap:23px}
+.reweight-legend span{font-size:11px}
+@media(max-width:760px){.reweight-illustration{grid-template-columns:1fr;gap:25px;margin-top:24px}.reweight-illustration svg{max-width:430px;margin:auto}.reweight-illustration h4{font-size:13px}.reweight-legend{justify-content:flex-start;gap:12px}.reweight-legend span{font-size:10px}}
+
+#reweight-title{scroll-margin-top:100px}
+
+/* Read admission from left to right, and each illustration from top to bottom. */
+.static-information{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.static-information>.method-figure{padding:22px;max-width:none;margin:0}
+.static-information .figure-step{margin-bottom:14px}
+.static-information .figure-step b{font-size:14px;line-height:1.5}
+.static-information .admission-flow{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.45fr) auto minmax(0,.8fr);align-items:center;gap:8px;padding:12px;margin:0 0 18px;font-size:11px;line-height:1.6;text-align:center}
+.static-information .admission-flow i{transform:none;line-height:1}
+.static-information .admission-flow span{min-width:0}
+.static-information .gate-diagram-grid{grid-template-columns:1fr;gap:20px}
+.static-information .range-geometry svg{max-width:420px;margin:auto}
+.static-information .gain-chart{border-left:0;border-top:1px solid #e5deec;padding:18px 0 0}
+.static-information .gain-chart svg{max-width:400px;margin:auto}
+.static-information .range-geometry svg text{font-size:15px}
+.static-information .range-geometry svg .sample-label{font-size:13px}
+.static-information .gain-chart svg text{font-size:14px}
+.static-information .gain-chart svg .svg-small{font-size:12px}
+.static-information .range-legend{justify-content:flex-start;gap:10px 16px;margin:12px 0 0}
+.static-information .diagram-equation{font-size:14px;padding:10px 12px;margin-top:18px}
+.static-information .equation-pair span{display:block}
+.static-information .gain-explanation>figcaption{margin-top:12px;font-size:10px}
+.direction-explanation .reweight-intro{font-size:12px;line-height:1.7}
+.direction-explanation .reweight-illustration{grid-template-columns:1fr;max-width:none;margin:18px 0 0;gap:22px}
+.direction-explanation .reweight-illustration h4{font-size:12px;margin-bottom:8px}
+.direction-explanation .reweight-projection svg{max-width:365px;margin:auto}
+.direction-explanation .weight-comparison{border-top:1px solid #e5deec;padding-top:18px}
+.direction-explanation .weight-comparison svg{max-width:310px;margin:auto}
+.direction-explanation .reweight-illustration figcaption{font-size:11px;line-height:1.7;margin-top:10px}
+.direction-explanation .reweight-legend{justify-content:flex-start;margin:10px 0 0;gap:9px 15px}
+.direction-explanation .reweight-legend span{font-size:10px}
+.direction-explanation .figure-note{margin-top:12px;font-size:10px;line-height:1.7}
+@media(max-width:1000px){
+ .static-information{grid-template-columns:1fr;gap:20px;max-width:620px;margin-inline:auto}
+}
+@media(max-width:760px){
+ .static-information>.method-figure{padding:18px}
+ .static-information .figure-step b{font-size:13px}
+ .static-information .admission-flow{gap:6px;padding:10px;font-size:10px}
+ .static-information .gate-diagram-grid{gap:16px}
+ .static-information .range-geometry svg text{font-size:17px}
+ .static-information .range-geometry svg .sample-label{font-size:16px}
+ .static-information .diagram-equation{font-size:12px;overflow-wrap:anywhere}
+ .direction-explanation .reweight-projection svg{max-width:330px}
+ .direction-explanation .weight-comparison svg{max-width:290px}
+ .direction-explanation .reweight-illustration{gap:18px}
+}

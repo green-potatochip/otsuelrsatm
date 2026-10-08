@@ -1,0 +1,16 @@
+{
+  "name": "our-slam-project-page",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "serve": "node scripts/serve.mjs", "check": "node scripts/check.mjs" },
+  "description": "Portable anonymous OUR-SLAM project page with bundled source and experiment data.",
+  "engines": { "node": ">=22.12.0" },
+  "dependencies": { "three": "0.185.1" },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "@types/three": "0.185.4",
+    "playwright": "1.55.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.2"
+  }
+}
